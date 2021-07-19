@@ -1,0 +1,26 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "complete node.js ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon express.js",
+    "start-server": "node express.js"
+  },
+  "author": "nagalakshmibuti",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "superheroes": "^3.0.0"
+  }
+}
